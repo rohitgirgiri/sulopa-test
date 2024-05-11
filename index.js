@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 const secretKey = 'sulopa8799';
 
 
-// generate any token
+// generate any token for test
 const token = jwt.sign({ username: 'admin' }, secretKey);
 console.log('generated token',token)
 
